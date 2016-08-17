@@ -7,8 +7,12 @@ def spider(max_pages):
 		url = 'https://thenewboston.com/forum/search_forums.php?s=&orderby=popular&page='+str(pages)
 		source_code = requests.get(url)
 		plain_text = source_code.text
-		soup = BeautifulSoup(plain_text)
+		soup = BeautifulSoup(plain_text,"html")
 		for link in soup.findAll('a',{'class':'title text-semibold'}):
-			
+			href = link.get('href')
+			print(href)
+		pages = pages+1
+		
+spider(1)
 		
 		
