@@ -6,3 +6,11 @@ Python
 
 ##Rquired Libraries
 BeautifulSoup
+
+##How to run
+On Python Terminal
+>> run webcrawler.py
+
+on Terminal
+$ python webcrawler.py
+
