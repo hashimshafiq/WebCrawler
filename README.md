@@ -5,7 +5,8 @@ Simple Web Crawler (Currently working on it.)
 Python
 
 ##Rquired Libraries
-BeautifulSoup
+BeautifulSou
+sudo apt-get install BeautifulSoup
 
 ##How to run
 On Python Terminal
