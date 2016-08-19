@@ -9,8 +9,8 @@ BeautifulSoup
 
 ##How to run
 On Python Terminal
->> run webcrawler.py
+ run webcrawler.py
 
 on Terminal
-$ python webcrawler.py
+python webcrawler.py
 
