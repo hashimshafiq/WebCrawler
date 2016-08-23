@@ -10,9 +10,19 @@ def spider(max_pages):
 		soup = BeautifulSoup(plain_text,"html")
 		for link in soup.findAll('a',{'class':'title text-semibold'}):
 			href = link.get('href')
-			print(href)
+			#print(href)
+			get_item_data(href)
 		pages = pages+1
+
+def get_item_data(item_url):
+	source_code = requests.get(item_url)
+	plain_text = source_code.text
+	soup = BeautifulSoup(plain_text,"html")
+	for link in soup.findAll('a',{'class':'title text-semibold'}):
+		title = link.string
+		print(title)
 		
+	
 spider(1)
 		
 		
