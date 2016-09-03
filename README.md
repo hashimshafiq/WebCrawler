@@ -6,7 +6,8 @@ Searching for categorize into categoriez and easliy create list of items
 Python
 
 ##Rquired Libraries
-BeautifulSou
+BeautifulSoup
+
 sudo apt-get install BeautifulSoup
 
 ##How to run
