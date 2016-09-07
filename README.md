@@ -7,6 +7,7 @@ Python
 
 ##Rquired Libraries
 BeautifulSoup
+Regex
 
 sudo apt-get install BeautifulSoup
 
