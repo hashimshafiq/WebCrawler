@@ -1,5 +1,5 @@
 # webcrawler + fb analyzer
-Simple Web Crawler (Currently working on it.)
+Simple Web Crawler
 Searching for categorize into categoriez and easliy create list of items
 
 ##Language
