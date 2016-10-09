@@ -1,4 +1,4 @@
-# webcrawler + fb analyzer
+# webcrawler + fb stalker
 Simple Web Crawler
 Searching for categorize into categoriez and easliy create list of items
 
