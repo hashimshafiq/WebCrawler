@@ -4,7 +4,6 @@ Searching for categorize into categoriez and easliy create list of items
 
 ##Language
 Python
-C
 
 ##Rquired Libraries
 BeautifulSoup
